@@ -1,0 +1,40 @@
+ .nav{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.nav a{
+    text-decoration: none;
+    color: black
+}
+
+.nav a:hover {
+    color: red;
+}
+
+
+.nav-cont a{
+  margin-right: 40px;
+}
+
+.nav .logo{
+    color: black;
+    font-weight: bolder;
+    width: 114px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.home-1{
+    background-color: white;
+    color: black;
+    border-radius:5%;
+    overflow: hidden;
+}
+
+/* .home-1 :hover{
+    
+} */

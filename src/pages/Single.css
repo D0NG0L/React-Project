@@ -1,0 +1,47 @@
+.single{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.single .img{
+    margin-top: 40px;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+  
+}
+
+.single .img:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 87, 87), 0 6px 20px 0 rgba(253, 226, 106, 0.904);
+}
+
+.single h3{
+    height: 45px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+   border-radius: 10px;
+    margin-top: 20px;
+}
+.single h3:hover{
+    background-color: blue;
+    color: white;
+}
+
+.single a:hover {
+    scale: 2;
+    color: rgb(91, 91, 250);
+}
+
+
+.single p {
+    font-weight: bold;
+    text-align: center;
+}
+.single p:hover{
+    box-shadow: 0 4px 8px 0 rgb(219, 255, 87), 0 6px 20px 0 rgba(106, 194, 253, 0.904);
+}
